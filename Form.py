@@ -77,6 +77,7 @@ with st.form(key="Rekomendation_Form"):
 # SIDEBAR
 st.link_button('Buka Ini', 'https://tisian1.odoo.com/')
 st.link_button('Ini juga', 'https://letterboxd.com/TisIan/')
+st.link_button('Ini juga', 'https://filmbang.streamlit.app/Mine')
 st.sidebar.subheader("3 Rekomendasi terakhir:")
 st.sidebar.dataframe(existing_data[['Film', 'Song']].tail(3))
 st.sidebar.warning('Tabel butuh waktu untuk update 🙂\n sekitar 5 menit')
